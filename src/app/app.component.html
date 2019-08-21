@@ -1,0 +1,22 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Bienvenido a  {{ title }}!
+  </h1>
+  <hr>
+<br>
+<input type="number" placeholder="Primer Numero"[(ngModel)]="numero1">
+<input type="number" placeholder="Segundo Numero" [(ngModel)]="numero2">
+<br/>
+
+<br>
+<button class="btn btn-primary"(click)="Suma()">+</button>
+<button class="btn btn-primary"(click)="Resta()">-</button>
+<button class="btn btn-primary"(click)="Multiplicacion()">x</button>
+<button class="btn btn-primary"(click)="Division()">/</button>
+<button class="btn btn-primary"(click)="Modulo()">MOD</button>
+<button class="btn btn-primary"(click)="Reset()">CE</button>
+<br>
+<br/>
+ {{rta}}
+</div>
